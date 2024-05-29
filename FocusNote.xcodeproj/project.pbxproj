@@ -15,6 +15,8 @@
 		8C3282782C064F1F005FAA27 /* FocusNoteTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C3282772C064F1F005FAA27 /* FocusNoteTests.swift */; };
 		8C3282822C064F1F005FAA27 /* FocusNoteUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C3282812C064F1F005FAA27 /* FocusNoteUITests.swift */; };
 		8C3282842C064F1F005FAA27 /* FocusNoteUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C3282832C064F1F005FAA27 /* FocusNoteUITestsLaunchTests.swift */; };
+		8C3282922C076E6A005FAA27 /* networkErrors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C3282912C076E6A005FAA27 /* networkErrors.swift */; };
+		8C3282942C0798BF005FAA27 /* PomodoroView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C3282932C0798BF005FAA27 /* PomodoroView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +48,8 @@
 		8C32827D2C064F1F005FAA27 /* FocusNoteUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FocusNoteUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C3282812C064F1F005FAA27 /* FocusNoteUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FocusNoteUITests.swift; sourceTree = "<group>"; };
 		8C3282832C064F1F005FAA27 /* FocusNoteUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FocusNoteUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		8C3282912C076E6A005FAA27 /* networkErrors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = networkErrors.swift; sourceTree = "<group>"; };
+		8C3282932C0798BF005FAA27 /* PomodoroView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PomodoroView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,7 +102,9 @@
 			children = (
 				8C3282642C064F1E005FAA27 /* FocusNoteApp.swift */,
 				8C3282662C064F1E005FAA27 /* ContentView.swift */,
+				8C3282932C0798BF005FAA27 /* PomodoroView.swift */,
 				8C3282682C064F1E005FAA27 /* Item.swift */,
+				8C3282902C076E55005FAA27 /* Errors */,
 				8C32826A2C064F1F005FAA27 /* Assets.xcassets */,
 				8C32826C2C064F1F005FAA27 /* Preview Content */,
 			);
@@ -128,6 +134,14 @@
 				8C3282832C064F1F005FAA27 /* FocusNoteUITestsLaunchTests.swift */,
 			);
 			path = FocusNoteUITests;
+			sourceTree = "<group>";
+		};
+		8C3282902C076E55005FAA27 /* Errors */ = {
+			isa = PBXGroup;
+			children = (
+				8C3282912C076E6A005FAA27 /* networkErrors.swift */,
+			);
+			path = Errors;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -260,7 +274,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8C3282942C0798BF005FAA27 /* PomodoroView.swift in Sources */,
 				8C3282672C064F1E005FAA27 /* ContentView.swift in Sources */,
+				8C3282922C076E6A005FAA27 /* networkErrors.swift in Sources */,
 				8C3282692C064F1E005FAA27 /* Item.swift in Sources */,
 				8C3282652C064F1E005FAA27 /* FocusNoteApp.swift in Sources */,
 			);
